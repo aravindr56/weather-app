@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:weather_app/screen/home_screen.dart';
+import 'package:weather_app/screen/splash_screen.dart';
 void main(){
   runApp(MyApp());
 }
@@ -9,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ,
+      home:SplashScreen() ,
       debugShowCheckedModeBanner: false,
       title: 'Weather App',
     );
